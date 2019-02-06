@@ -1,7 +1,7 @@
-const loginUsername = document.getElementById('login-username').value
-const loginPassword = document.getElementById('login-password').value
+const loginUsername = document.getElementById('login-username')
+const loginPassword = document.getElementById('login-password')
 const loginBtn = document.getElementById('login-submit')
 
 loginBtn.addEventListener('click', (e) => {
-  console.log('ok')
+  console.log(loginUsername.value + loginPassword.value)
 });
